@@ -1,0 +1,80 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://751b3287-f476-48bd-9aea-33e5779cb671",
+	"@type": "sc:Manifest",
+	"label": "my_canvas _1",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://abfd8d2d-c6c7-484c-81e7-30a2cbe278b0",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://78c8fd9c-c4cc-4e60-b0f6-c44f25e0a569",
+					"@type": "sc:Canvas",
+					"label": "my_canvas",
+					"height": 601,
+					"width": 947,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://121019e5-e0d2-4d4a-80e9-0fed5500229d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 601,
+								"width": 947
+							},
+							"on": "http://78c8fd9c-c4cc-4e60-b0f6-c44f25e0a569"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
