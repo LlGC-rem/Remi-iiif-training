@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://LlGC-rem.github.io/Remi-iiif-training/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in LlGC-rem/Remi-iiif-training project"
+        ]
+    },
+    "items": []
+}
